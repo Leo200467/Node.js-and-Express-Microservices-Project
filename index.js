@@ -68,8 +68,8 @@ app.get("/", (req, res) => {
     res.send("<h2> Hi There!! </h2>");
 })
 
-app.use("/posts", postRouter)
-app.use("/users", userRouter)
+app.use("/api/v1/posts", postRouter)
+app.use("/api/v1/users", userRouter)
 
 
 const port = process.env.PORT || 3000;
