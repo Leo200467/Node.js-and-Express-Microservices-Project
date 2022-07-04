@@ -20,10 +20,13 @@ const connectWithRetry = () => {
     });
 }
 
+connectWithRetry();
+
+app.use(express.json());
+
 app.get("/", (req, res) => {
     res.send("<h2> Hi There!! </h2>");
 })
-
 
 app.use("/posts", postRouter)
 const port = process.env.PORT || 3000;
