@@ -13,6 +13,6 @@ router
     .route("/:id")
     .get(postController.getOnePost)
     .patch(postController.updatePost)
-    .delete(postController.delete)
+    .delete(postController.deletePost)
 
 module.exports = router
