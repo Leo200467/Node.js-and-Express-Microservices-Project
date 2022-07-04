@@ -1,19 +1,28 @@
 {
-  "name": "NodeExpress",
+  "name": "nodeexpress",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node and Express Microservices project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon -L index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Leonardo Cardoso",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2"
   },
   "devDependencies": {
     "nodemon": "^1.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leo200467/Node.js-and-Express-Microservices-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Leo200467/Node.js-and-Express-Microservices-Project/issues"
+  },
+  "homepage": "https://github.com/Leo200467/Node.js-and-Express-Microservices-Project#readme"
 }
